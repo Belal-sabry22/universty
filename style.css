@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(162, 154, 154);
+}
+h1{
+    width: 150px;
+    color: wheat;
+}
+.navLinks{
+    flex: 1;
+    text-align: right;
+  
+}
+.navLinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navLinks ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.navLinks ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(78, 4, 4);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navLinks ul li :hover::after{
+    width: 100%;
+}
+.ourService{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px ;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.coursesRow{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.coursesColumn{
+    flex-basis: 31%;
+    background: peachpuff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.coursesColumn:hover{
+    box-shadow: 0 0 20px 0px black;
+}
+.testimoials{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px ;
+}
+.testimoialsRow{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.testimoialsColumn{
+    flex-basis: 31%;
+    background: peachpuff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.testimoialsColumn img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimoialsColumn p{
+   padding: 0;
+}
+.testimoialsColumn h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.testimoialsColumn:hover{
+    box-shadow: 0 0 20px 0px black;
+}
+.testimoialsColumn .fa{
+    color: yellow;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
